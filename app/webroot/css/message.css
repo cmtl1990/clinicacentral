@@ -1,0 +1,31 @@
+.message{
+	position:fixed;
+	top:0;
+	left:50%;
+	margin-left:-100px;
+	min-width:200px;
+	display:none;
+	background:#FFCC00;
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(100% 100% 90deg, #FFCC00, #FED89E); 
+	/* -webkit-gradient(<type>, <point> [, <radius>]?, <point> [, <radius>]? [, <stop>]*) */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FED89E), to(#FFCC00)); 
+	/* Safari 5.1+, Chrome 10+ */ 
+	background: -webkit-linear-gradient(#FFCC00, #FED89E); 
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(#FFCC00, #FED89E);
+	color:#C64000;
+	padding: 4px 10px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	font-family:Verdana;
+	font-size:11px;
+	text-align:center;
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+	z-index: 2000;
+}
+.center{
+	text-align:center;
+}

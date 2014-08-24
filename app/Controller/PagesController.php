@@ -45,6 +45,15 @@ class PagesController extends AppController {
  * @throws NotFoundException When the view file could not be found
  *	or MissingViewException in debug mode.
  */
+	
+	function beforeFilter(){
+		$this->currentPage = (!empty($this->params['pass']))? $this->params['pass'][0] : $this->params['controller'];
+		if (!$this->Auth->loggedIn()){
+			$this->redirect(array('controller' => 'users', 'action' => 'login'));
+		}
+		parent::beforeFilter();
+	}
+
 	public function display() {
 		$path = func_get_args();
 

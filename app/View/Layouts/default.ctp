@@ -22,40 +22,74 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		<?php echo $cakeDescription ?>:
 		<?php echo $title_for_layout; ?>
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
-
-		echo $this->Html->css('cake.generic');
-
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
+		echo $this->Html->css(array('bootstrap.min', 'bootstrap-theme.min', 'message', 'style'), 'stylesheet', array('media'=>'all')); 
+		echo $this->Html->script(array('jquery.min.js','bootstrap.min.js', 'message.js'),array('inline'=>true));
 	?>
 </head>
 <body>
-	<div id="container">
-		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
+	<?php echo $this->Session->flash(); ?>
+	<div id="wrapper">
+		<div id="template">
+			<nav style="margin-bottom: 0" role="navigation" class="navbar navbar-default navbar-fixed-top">
+				<div class="navbar-header">
+					<button data-target=".sidebar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="index.html" class="navbar-brand">Sistema de Inventario y Facturación</a>
+				</div>
+				<ul class="nav navbar-top-links navbar-right">
+					<li class="dropdown">
+						<a href="#" data-toggle="dropdown" class="dropdown-toggle">
+							<i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+						</a>
+						<ul class="dropdown-menu dropdown-user">
+							<li><a href="javascript:void();"><i class="fa fa-user fa-fw"></i> Perfil de Usuario</a>
+							</li>
+							<li><a href="javascript:void();"><i class="fa fa-gear fa-fw"></i> Configuraciones</a>
+							</li>
+							<li class="divider"></li>
+							<li>
+								<?php echo $this->Html->link('<i class="fa fa-sign-out fa-fw"></i>Cerrar Sesión', array('controller'=>'users', 'action'=>'logout'), array('escape'=>false)); ?>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<div id="menu" role="navigation" class="navbar-default navbar-static-side">
+					<div class="sidebar-collapse">
+						<ul id="side-menu" class="nav">
+							<li><?php echo $this->Html->link('<i class="fa fa-dashboard fa-fw"></i>Home', array('controller'=>'pages', 'action'=>'display', 'home'), array('escape'=>false)); ?></li>
+							<li>
+								<?php echo $this->Html->link('<i class="fa fa-users"><i>Clientes', array('controller'=>'clientes', 'action'=>'index'), array('escape'=>false)); ?>
+							</li>
+						</ul>
+					</div>
+					<script type="text/javascript">
+						$(document).ready(function(){
+							$("#it_clientes").click(function(){
+								alert("asd");
+							});
+						});
+					</script>
+				</div>
+			</nav>
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$("#menu").load("pages/menu.php");
+				})
+			</script>
 		</div>
-		<div id="content">
-
-			<?php echo $this->Session->flash(); ?>
-
+		<div id="page-wrapper">
 			<?php echo $this->fetch('content'); ?>
-		</div>
-		<div id="footer">
-			<?php echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
-					'http://www.cakephp.org/',
-					array('target' => '_blank', 'escape' => false, 'id' => 'cake-powered')
-				);
-			?>
-			<p>
-				<?php echo $cakeVersion; ?>
-			</p>
 		</div>
 	</div>
 	<?php echo $this->element('sql_dump'); ?>

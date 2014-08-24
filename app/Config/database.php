@@ -72,9 +72,8 @@ class DATABASE_CONFIG {
 		'login' => 'postgres',
 		'password' => 'root',
 		'database' => 'bdd_CC',
-		'schema' => '',
-		'prefix' => '',
-		'encoding' => ''
+		'schema' => 'public',
+		'prefix' => ''
 		//'encoding' => 'utf8',
 	);
 

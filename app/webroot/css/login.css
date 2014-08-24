@@ -1,0 +1,11 @@
+#login{
+	background: none repeat scroll 0 0 #f2f2f2;
+    border-radius: 5px;
+    height: 214px;
+    left: 50%;
+    margin-left: -150px;
+    padding: 20px;
+    position: absolute;
+    top: 25%;
+    width: 440px;
+}

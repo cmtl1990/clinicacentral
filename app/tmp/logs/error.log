@@ -1,0 +1,2195 @@
+2014-08-24 20:59:38 Error: [MissingComponentException] Component class SwiftMailerComponent could not be found.
+Exception Attributes: array (
+  'class' => 'SwiftMailerComponent',
+  'plugin' => false,
+)
+Request URL: /clinicacentral/
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\ComponentCollection.php(53): ComponentCollection->load('SwiftMailer', Array)
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(643): ComponentCollection->init(Object(UsersController))
+#2 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(186): Controller->constructClasses()
+#3 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-08-24 21:00:04 Error: Fatal Error (1): Call to a member function allow() on a non-object in [D:\xampp\htdocs\clinicacentral\app\Controller\UsersController.php, line 14]
+2014-08-24 21:00:04 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /clinicacentral/
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'D:\xampp\htdocs...', 14)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'D:\xampp\htdocs...', 14, Array)
+#2 D:\xampp\htdocs\clinicacentral\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'D:\xampp\htdocs...', 14, Array)
+#3 D:\xampp\htdocs\clinicacentral\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-08-24 21:01:17 Error: [MissingLayoutException] Layout file "D:\xampp\htdocs\clinicacentral\app\View\Layouts\public.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Layouts\\public.ctp',
+)
+Request URL: /clinicacentral/
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(510): View->_getLayoutFileName('public')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(479): View->renderLayout('', 'public')
+#2 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#3 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-08-24 21:17:15 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /clinicacentral/
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(3525): Model->setSource('users')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#2 D:\xampp\htdocs\clinicacentral\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 D:\xampp\htdocs\clinicacentral\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#4 D:\xampp\htdocs\clinicacentral\app\View\Users\login.ctp(4): FormHelper->create('User', Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(948): include('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(910): View->_evaluate('D:\xampp\htdocs...', Array)
+#7 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(471): View->_render('D:\xampp\htdocs...')
+#8 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#9 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#10 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-24 21:17:43 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /clinicacentral/
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(3525): Model->setSource('users')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#2 D:\xampp\htdocs\clinicacentral\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 D:\xampp\htdocs\clinicacentral\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#4 D:\xampp\htdocs\clinicacentral\app\View\Users\login.ctp(4): FormHelper->create('User', Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(948): include('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(910): View->_evaluate('D:\xampp\htdocs...', Array)
+#7 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(471): View->_render('D:\xampp\htdocs...')
+#8 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#9 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#10 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-24 21:19:05 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /clinicacentral/
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(3525): Model->setSource('users')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(1365): Model->getDataSource()
+#2 D:\xampp\htdocs\clinicacentral\lib\Cake\View\Helper\FormHelper.php(215): Model->schema()
+#3 D:\xampp\htdocs\clinicacentral\lib\Cake\View\Helper\FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#4 D:\xampp\htdocs\clinicacentral\app\View\Users\login.ctp(4): FormHelper->create('User', Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(948): include('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(910): View->_evaluate('D:\xampp\htdocs...', Array)
+#7 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(471): View->_render('D:\xampp\htdocs...')
+#8 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#9 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#10 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-08-24 21:21:29 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\dashboard.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\dashboard.ctp',
+)
+Request URL: /clinicacentral/pages/dashboard
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('dashboard')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('dashboard', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('dashboard')
+#3 [internal function]: PagesController->display('dashboard')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:22:01 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\dashboard.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\dashboard.ctp',
+)
+Request URL: /clinicacentral/pages/dashboard
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('dashboard')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('dashboard', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('dashboard')
+#3 [internal function]: PagesController->display('dashboard')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:25:40 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:25:41 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:27:16 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:27:16 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:30:20 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:30:20 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:32:23 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:32:23 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:32:25 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:32:25 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:33:04 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:33:05 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:34:24 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:34:24 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:34:24 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:34:31 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\index.html.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\index.html.ctp',
+)
+Request URL: /clinicacentral/pages/index.html
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('index.html')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('index.html', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('index.html')
+#3 [internal function]: PagesController->display('index.html')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:34:32 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:34:33 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\index.html.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\index.html.ctp',
+)
+Request URL: /clinicacentral/pages/index.html
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('index.html')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('index.html', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('index.html')
+#3 [internal function]: PagesController->display('index.html')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:34:34 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:34:37 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:34:37 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(69): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:35:27 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\dashboard.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\dashboard.ctp',
+)
+Request URL: /clinicacentral/pages/dashboard
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('dashboard')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('dashboard', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(81): Controller->render('dashboard')
+#3 [internal function]: PagesController->display('dashboard')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:35:28 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(81): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:35:51 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:35:52 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:36:03 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:36:04 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:37:01 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:37:02 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:37:08 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:37:08 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:37:53 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:37:53 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:37:57 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:37:57 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:38:07 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:38:07 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:38:10 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:38:10 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:38:15 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:38:16 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:39:05 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:39:05 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:39:38 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:39:38 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:39:58 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:39:59 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:40:14 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:40:14 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:40:18 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:40:18 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:40:36 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\lib\js\clientes.js.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\lib\\js\\clientes.js.ctp',
+)
+Request URL: /clinicacentral/pages/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('lib/js/clientes...')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('lib/js/clientes...', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('lib/js/clientes...')
+#3 [internal function]: PagesController->display('lib', 'js', 'clientes.js')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:40:36 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:41:34 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:44:20 Error: [MissingHelperException] Helper class HmtlHelper could not be found.
+Exception Attributes: array (
+  'class' => 'HmtlHelper',
+  'plugin' => false,
+)
+Request URL: /clinicacentral/pages/home
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('Hmtl')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(837): HelperCollection->__isset('Hmtl')
+#2 D:\xampp\htdocs\clinicacentral\app\View\Layouts\default.ctp(71): View->__get('Hmtl')
+#3 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(948): include('D:\xampp\htdocs...')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(910): View->_evaluate('D:\xampp\htdocs...', Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(542): View->_render('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(479): View->renderLayout('', 'default')
+#7 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('home', NULL)
+#8 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('home')
+#9 [internal function]: PagesController->display('home')
+#10 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#11 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#13 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-08-24 21:44:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 21:44:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/css/cake.generic.css
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 21:44:34 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:44:51 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:44:54 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('pages/menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('pages/menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('pages/menu.php')
+#3 [internal function]: PagesController->display('pages', 'menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:44:56 Error: [MissingControllerException] Controller class ClientesController could not be found.
+Exception Attributes: array (
+  'class' => 'ClientesController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/clientes
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 21:44:56 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('menu.php')
+#3 [internal function]: PagesController->display('menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:45:45 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 21:45:45 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('menu.php')
+#3 [internal function]: PagesController->display('menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:46:33 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 21:46:33 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('menu.php')
+#3 [internal function]: PagesController->display('menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:47:08 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 21:47:09 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('menu.php')
+#3 [internal function]: PagesController->display('menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:47:28 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 21:47:28 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('menu.php')
+#3 [internal function]: PagesController->display('menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:52:55 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 21:52:55 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 21:52:55 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('menu.php')
+#3 [internal function]: PagesController->display('menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:55:30 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 21:55:31 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('menu.php')
+#3 [internal function]: PagesController->display('menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:55:42 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 21:55:43 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('menu.php')
+#3 [internal function]: PagesController->display('menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 21:55:45 Error: [MissingActionException] Action ClientesController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'add',
+)
+Request URL: /clinicacentral/clientes/add
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 21:55:45 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 21:56:07 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 21:56:07 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 21:56:32 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 21:56:32 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 21:57:48 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 21:57:48 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 21:59:10 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 21:59:10 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:00:04 Error: [PDOException] SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, Jhon, null, null, null, null, null, null, null, null).
+Request URL: /clinicacentral/clientes/add
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO "pu...')
+#3 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Cliente), Array, Array)
+#4 D:\xampp\htdocs\clinicacentral\app\Controller\ClientesController.php(16): Model->save(Array)
+#5 [internal function]: ClientesController->add()
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#7 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#9 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-24 22:00:05 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:01:08 Error: [PDOException] SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, Jhon, null, null, null, null, null, null, null, null).
+Request URL: /clinicacentral/clientes/add
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO "pu...')
+#3 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Cliente), Array, Array)
+#4 D:\xampp\htdocs\clinicacentral\app\Controller\ClientesController.php(16): Model->save(Array)
+#5 [internal function]: ClientesController->add()
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#7 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#9 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-24 22:01:08 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:02:13 Error: [PDOException] SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, Jhon, null, null, null, null, null, null, null, null).
+Request URL: /clinicacentral/clientes/add
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO "pu...')
+#3 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Cliente), Array, Array)
+#4 D:\xampp\htdocs\clinicacentral\app\Controller\ClientesController.php(16): Model->save(Array)
+#5 [internal function]: ClientesController->add()
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#7 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#9 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-24 22:02:13 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:03:43 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 22:03:43 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 22:03:44 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('menu.php')
+#3 [internal function]: PagesController->display('menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 22:03:47 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:03:47 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:03:48 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:03:51 Error: [PDOException] SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "id" violates not-null constraint
+DETAIL:  Failing row contains (null, null, Jhon, null, null, null, null, null, null, null, null).
+Request URL: /clinicacentral/clientes/add
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO "pu...')
+#3 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Cliente), Array, Array)
+#4 D:\xampp\htdocs\clinicacentral\app\Controller\ClientesController.php(16): Model->save(Array)
+#5 [internal function]: ClientesController->add()
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#7 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#9 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-24 22:03:51 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:07:43 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 22:07:43 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 22:07:43 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('menu.php')
+#3 [internal function]: PagesController->display('menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 22:07:48 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:07:48 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:07:48 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:07:51 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 22:07:51 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 22:07:51 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('menu.php')
+#3 [internal function]: PagesController->display('menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 22:12:34 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:12:34 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:12:34 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:12:37 Error: [PDOException] SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "id2" violates not-null constraint
+DETAIL:  Failing row contains (null, null, Jhon, null, null, null, null, null, null, null, null, 1).
+Request URL: /clinicacentral/clientes/add
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO "pu...')
+#3 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(1850): DboSource->create(Object(Cliente), Array, Array)
+#4 D:\xampp\htdocs\clinicacentral\app\Controller\ClientesController.php(16): Model->save(Array)
+#5 [internal function]: ClientesController->add()
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#7 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#9 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-08-24 22:12:38 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:12:57 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:12:57 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:13:19 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:13:19 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:13:45 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:13:46 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:15:54 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:15:54 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:16:03 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:16:03 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:16:06 Error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "lib"
+LINE 1: ...."clientes" AS "Cliente"   WHERE "Cliente"."id" = 'lib'    L...
+                                                             ^
+Request URL: /clinicacentral/clientes/edit/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT "Cliente...', Array)
+#2 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Cliente...', Array, Array)
+#3 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT "Cliente...', false)
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(2921): DboSource->read(Object(Cliente), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(2893): Model->_readDataSource('first', Array)
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(1604): Model->find('first', Array)
+#7 D:\xampp\htdocs\clinicacentral\app\Controller\ClientesController.php(44): Model->read()
+#8 [internal function]: ClientesController->edit('lib', 'js', 'clientes.js')
+#9 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#10 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#12 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-24 22:16:06 Error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "pages"
+LINE 1: ...."clientes" AS "Cliente"   WHERE "Cliente"."id" = 'pages'   ...
+                                                             ^
+Request URL: /clinicacentral/clientes/edit/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT "Cliente...', Array)
+#2 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Cliente...', Array, Array)
+#3 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT "Cliente...', false)
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(2921): DboSource->read(Object(Cliente), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(2893): Model->_readDataSource('first', Array)
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(1604): Model->find('first', Array)
+#7 D:\xampp\htdocs\clinicacentral\app\Controller\ClientesController.php(44): Model->read()
+#8 [internal function]: ClientesController->edit('pages', 'menu.php')
+#9 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#10 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#12 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-24 22:16:10 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:16:10 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:16:10 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:16:48 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:16:48 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:16:50 Error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "lib"
+LINE 1: ...."clientes" AS "Cliente"   WHERE "Cliente"."id" = 'lib'    L...
+                                                             ^
+Request URL: /clinicacentral/clientes/edit/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT "Cliente...', Array)
+#2 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Cliente...', Array, Array)
+#3 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT "Cliente...', false)
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(2921): DboSource->read(Object(Cliente), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(2893): Model->_readDataSource('first', Array)
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(1604): Model->find('first', Array)
+#7 D:\xampp\htdocs\clinicacentral\app\Controller\ClientesController.php(44): Model->read()
+#8 [internal function]: ClientesController->edit('lib', 'js', 'clientes.js')
+#9 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#10 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#12 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-24 22:16:50 Error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "pages"
+LINE 1: ...."clientes" AS "Cliente"   WHERE "Cliente"."id" = 'pages'   ...
+                                                             ^
+Request URL: /clinicacentral/clientes/edit/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT "Cliente...', Array)
+#2 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Cliente...', Array, Array)
+#3 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT "Cliente...', false)
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(2921): DboSource->read(Object(Cliente), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(2893): Model->_readDataSource('first', Array)
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(1604): Model->find('first', Array)
+#7 D:\xampp\htdocs\clinicacentral\app\Controller\ClientesController.php(44): Model->read()
+#8 [internal function]: ClientesController->edit('pages', 'menu.php')
+#9 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#10 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#12 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-24 22:16:54 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:16:54 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:16:55 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:17:05 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:17:05 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:17:05 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:17:20 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:17:20 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:17:32 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 22:17:33 Error: [MissingControllerException] Controller class LibController could not be found.
+Exception Attributes: array (
+  'class' => 'LibController',
+  'plugin' => NULL,
+)
+Request URL: /clinicacentral/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-08-24 22:17:33 Error: [MissingViewException] View file "D:\xampp\htdocs\clinicacentral\app\View\Pages\menu.php.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'D:\\xampp\\htdocs\\clinicacentral\\app\\View\\Pages\\menu.php.ctp',
+)
+Request URL: /clinicacentral/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\View\View.php(468): View->_getViewFileName('menu.php')
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(954): View->render('menu.php', NULL)
+#2 D:\xampp\htdocs\clinicacentral\app\Controller\PagesController.php(78): Controller->render('menu.php')
+#3 [internal function]: PagesController->display('menu.php')
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#7 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2014-08-24 22:17:34 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:17:35 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:17:35 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:17:47 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:17:48 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:17:48 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:17:59 Error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "lib"
+LINE 1: ...."clientes" AS "Cliente"   WHERE "Cliente"."id" = 'lib'    L...
+                                                             ^
+Request URL: /clinicacentral/clientes/edit/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT "Cliente...', Array)
+#2 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Cliente...', Array, Array)
+#3 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT "Cliente...', false)
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(2921): DboSource->read(Object(Cliente), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(2893): Model->_readDataSource('first', Array)
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(1604): Model->find('first', Array)
+#7 D:\xampp\htdocs\clinicacentral\app\Controller\ClientesController.php(44): Model->read()
+#8 [internal function]: ClientesController->edit('lib', 'js', 'clientes.js')
+#9 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#10 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#12 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-24 22:17:59 Error: [PDOException] SQLSTATE[22P02]: Invalid text representation: 7 ERROR:  invalid input syntax for integer: "pages"
+LINE 1: ...."clientes" AS "Cliente"   WHERE "Cliente"."id" = 'pages'   ...
+                                                             ^
+Request URL: /clinicacentral/clientes/edit/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT "Cliente...', Array)
+#2 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT "Cliente...', Array, Array)
+#3 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT "Cliente...', false)
+#4 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(2921): DboSource->read(Object(Cliente), Array)
+#5 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(2893): Model->_readDataSource('first', Array)
+#6 D:\xampp\htdocs\clinicacentral\lib\Cake\Model\Model.php(1604): Model->find('first', Array)
+#7 D:\xampp\htdocs\clinicacentral\app\Controller\ClientesController.php(44): Model->read()
+#8 [internal function]: ClientesController->edit('pages', 'menu.php')
+#9 D:\xampp\htdocs\clinicacentral\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ClientesController), Array)
+#10 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#12 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-08-24 22:18:05 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:18:06 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:18:06 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:18:11 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:18:11 Error: [MissingActionException] Action ClientesController::lib() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'lib',
+)
+Request URL: /clinicacentral/clientes/lib/js/clientes.js
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-08-24 22:18:12 Error: [MissingActionException] Action ClientesController::pages() could not be found.
+Exception Attributes: array (
+  'controller' => 'ClientesController',
+  'action' => 'pages',
+)
+Request URL: /clinicacentral/clientes/pages/menu.php
+Stack Trace:
+#0 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 D:\xampp\htdocs\clinicacentral\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ClientesController), Object(CakeRequest))
+#2 D:\xampp\htdocs\clinicacentral\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
